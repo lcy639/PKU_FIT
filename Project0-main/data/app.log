@@ -1,0 +1,654 @@
+2025-05-23 19:34:41,926 - DEBUG - Database tables initialized
+2025-05-23 19:34:41,926 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-23 19:38:21,352 - DEBUG - Database tables initialized
+2025-05-23 19:38:21,352 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-23 19:38:26,202 - INFO - Registration attempt for user: 123
+2025-05-23 19:38:26,228 - INFO - User registered: 123
+2025-05-23 19:38:27,894 - INFO - Login attempt for user: 123
+2025-05-23 19:38:27,919 - INFO - User logged in: 123
+2025-05-25 23:11:54,566 - DEBUG - Database tables initialized
+2025-05-25 23:11:54,567 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-25 23:12:06,934 - INFO - Login attempt for user: 123
+2025-05-25 23:12:06,959 - INFO - User logged in: 123
+2025-05-25 23:17:36,981 - DEBUG - Database tables initialized
+2025-05-25 23:17:36,991 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-25 23:17:37,291 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:17:37,291 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:17:37,505 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:17:37,505 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:17:37,688 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:17:37,688 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:17:45,865 - INFO - Login attempt for user: 123
+2025-05-25 23:17:45,881 - WARNING - Invalid password for user: 123
+2025-05-25 23:17:45,881 - ERROR - Login error: 密码错误
+2025-05-25 23:17:48,687 - INFO - Login attempt for user: 123
+2025-05-25 23:17:48,708 - INFO - User logged in: 123
+2025-05-25 23:18:01,910 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-e1273fd9-6364-47f5-af8c-104ef774a6d2', 'json_data': {'messages': [{'role': 'user', 'content': '请根据以下要求生成专业健身计划：\n\n## 用户需求\n- 总时长：30分钟 (±5分钟)\n- 目标肌肉：臀, 大, 肌\n- 难度限制：5/5\n\n## 可用动作（必须使用以下动作）请特别注意，只能使用以下动作来生成计划：\n[\n  {\n    "name": "深蹲",\n    "target_muscles": [\n      "股四头肌",\n      "臀大肌",\n      "腿后侧肌群"\n    ],\n    "equipment": "杠铃",\n    "difficulty": "3",\n    "description": "双脚与肩同宽，背部挺直，屈膝下蹲至大腿与地面平行，然后起身。"\n  },\n  {\n    "name": "硬拉",\n    "target_muscles": [\n      "臀大肌",\n      "腿后侧肌群",\n      "下背部"\n    ],\n    "equipment": "杠铃",\n    "difficulty": "4",\n    "description": "保持背部中立，双脚站在杠铃下方，抓握后站立拉起杠铃。"\n  },\n  {\n    "name": "深蹲",\n    "target_muscles": [\n      "股四头肌",\n      "臀大肌",\n      "腘绳肌"\n    ],\n    "equipment": "杠铃",\n    "difficulty": "4",\n    "description": "背负杠铃下蹲至大腿与地面平行，再站起，增强下肢力量。"\n  },\n  {\n    "name": "负重深蹲",\n    "target_muscles": [\n      "股四头肌",\n      "臀大肌"\n    ],\n    "equipment": "壶铃/杠铃",\n    "difficulty": "3",\n    "description": "手持重物下蹲锻炼下肢力量和稳定性。"\n  }\n]\n\n## 计划要求\n1. 结构包含：动态热身（10%）、正式训练（80%）、静态拉伸（10%）\n2. 正式训练包含3-5个不同动作\n3. 每个动作注明：\n   - 组数×次数（如：4×8-12）\n   - 组间休息时间\n   - 重量选择建议（根据难度）\n4. 使用Markdown格式\n5. 动作名称必须严格匹配提供的列表\n'}], 'model': 'deepseek-chat', 'max_tokens': 1500, 'temperature': 0.3}}
+2025-05-25 23:18:01,948 - DEBUG - Sending HTTP Request: POST https://api.deepseek.com/chat/completions
+2025-05-25 23:18:01,949 - DEBUG - connect_tcp.started host='127.0.0.1' port=33210 local_address=None timeout=5.0 socket_options=None
+2025-05-25 23:18:01,950 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F65B76A7B0>
+2025-05-25 23:18:01,950 - DEBUG - send_request_headers.started request=<Request [b'CONNECT']>
+2025-05-25 23:18:01,951 - DEBUG - send_request_headers.complete
+2025-05-25 23:18:01,951 - DEBUG - send_request_body.started request=<Request [b'CONNECT']>
+2025-05-25 23:18:01,952 - DEBUG - send_request_body.complete
+2025-05-25 23:18:01,952 - DEBUG - receive_response_headers.started request=<Request [b'CONNECT']>
+2025-05-25 23:18:01,952 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'Connection established', [])
+2025-05-25 23:18:01,953 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001F658052B50> server_hostname='api.deepseek.com' timeout=5.0
+2025-05-25 23:18:02,021 - DEBUG - start_tls.failed exception=ConnectError(ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2025-05-25 23:18:02,021 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "D:\anaconda_1\Lib\site-packages\httpcore\_exceptions.py", line 10, in map_exceptions
+    yield
+  File "D:\anaconda_1\Lib\site-packages\httpcore\_backends\sync.py", line 168, in start_tls
+    raise exc
+  File "D:\anaconda_1\Lib\site-packages\httpcore\_backends\sync.py", line 163, in start_tls
+    sock = ssl_context.wrap_socket(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda_1\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda_1\Lib\ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "D:\anaconda_1\Lib\ssl.py", line 1319, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\anaconda_1\Lib\site-packages\httpx\_transports\default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "D:\anaconda_1\Lib\site-packages\httpx\_transports\default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda_1\Lib\site-packages\httpcore\_sync\connection_pool.py", line 268, in handle_request
+    raise exc
+  File "D:\anaconda_1\Lib\site-packages\httpcore\_sync\connection_pool.py", line 251, in handle_request
+    response = connection.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda_1\Lib\site-packages\httpcore\_sync\http_proxy.py", line 317, in handle_request
+    stream = stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda_1\Lib\site-packages\httpcore\_backends\sync.py", line 152, in start_tls
+    with map_exceptions(exc_map):
+  File "D:\anaconda_1\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\anaconda_1\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\anaconda_1\Lib\site-packages\openai\_base_client.py", line 969, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda_1\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda_1\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda_1\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda_1\Lib\site-packages\httpx\_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda_1\Lib\site-packages\httpx\_transports\default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "D:\anaconda_1\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\anaconda_1\Lib\site-packages\httpx\_transports\default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2025-05-25 23:18:02,028 - DEBUG - 2 retries left
+2025-05-25 23:18:02,028 - INFO - Retrying request to /chat/completions in 0.408919 seconds
+2025-05-25 23:18:02,438 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-e1273fd9-6364-47f5-af8c-104ef774a6d2', 'json_data': {'messages': [{'role': 'user', 'content': '请根据以下要求生成专业健身计划：\n\n## 用户需求\n- 总时长：30分钟 (±5分钟)\n- 目标肌肉：臀, 大, 肌\n- 难度限制：5/5\n\n## 可用动作（必须使用以下动作）请特别注意，只能使用以下动作来生成计划：\n[\n  {\n    "name": "深蹲",\n    "target_muscles": [\n      "股四头肌",\n      "臀大肌",\n      "腿后侧肌群"\n    ],\n    "equipment": "杠铃",\n    "difficulty": "3",\n    "description": "双脚与肩同宽，背部挺直，屈膝下蹲至大腿与地面平行，然后起身。"\n  },\n  {\n    "name": "硬拉",\n    "target_muscles": [\n      "臀大肌",\n      "腿后侧肌群",\n      "下背部"\n    ],\n    "equipment": "杠铃",\n    "difficulty": "4",\n    "description": "保持背部中立，双脚站在杠铃下方，抓握后站立拉起杠铃。"\n  },\n  {\n    "name": "深蹲",\n    "target_muscles": [\n      "股四头肌",\n      "臀大肌",\n      "腘绳肌"\n    ],\n    "equipment": "杠铃",\n    "difficulty": "4",\n    "description": "背负杠铃下蹲至大腿与地面平行，再站起，增强下肢力量。"\n  },\n  {\n    "name": "负重深蹲",\n    "target_muscles": [\n      "股四头肌",\n      "臀大肌"\n    ],\n    "equipment": "壶铃/杠铃",\n    "difficulty": "3",\n    "description": "手持重物下蹲锻炼下肢力量和稳定性。"\n  }\n]\n\n## 计划要求\n1. 结构包含：动态热身（10%）、正式训练（80%）、静态拉伸（10%）\n2. 正式训练包含3-5个不同动作\n3. 每个动作注明：\n   - 组数×次数（如：4×8-12）\n   - 组间休息时间\n   - 重量选择建议（根据难度）\n4. 使用Markdown格式\n5. 动作名称必须严格匹配提供的列表\n'}], 'model': 'deepseek-chat', 'max_tokens': 1500, 'temperature': 0.3}}
+2025-05-25 23:18:02,441 - DEBUG - Sending HTTP Request: POST https://api.deepseek.com/chat/completions
+2025-05-25 23:18:02,441 - DEBUG - connect_tcp.started host='127.0.0.1' port=33210 local_address=None timeout=5.0 socket_options=None
+2025-05-25 23:18:02,452 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F65B76B8C0>
+2025-05-25 23:18:02,469 - DEBUG - send_request_headers.started request=<Request [b'CONNECT']>
+2025-05-25 23:18:02,470 - DEBUG - send_request_headers.complete
+2025-05-25 23:18:02,470 - DEBUG - send_request_body.started request=<Request [b'CONNECT']>
+2025-05-25 23:18:02,470 - DEBUG - send_request_body.complete
+2025-05-25 23:18:02,471 - DEBUG - receive_response_headers.started request=<Request [b'CONNECT']>
+2025-05-25 23:18:02,471 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'Connection established', [])
+2025-05-25 23:18:02,471 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001F658052B50> server_hostname='api.deepseek.com' timeout=5.0
+2025-05-25 23:18:03,399 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F65B76BA40>
+2025-05-25 23:18:03,399 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-05-25 23:18:03,400 - DEBUG - send_request_headers.complete
+2025-05-25 23:18:03,400 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-05-25 23:18:03,401 - DEBUG - send_request_body.complete
+2025-05-25 23:18:03,401 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-05-25 23:18:03,856 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 25 May 2025 15:18:03 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'7865e27661e42c2d75cdebdb64a5fa16'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=k34_uQZMftUuXE2UGZ64YvL9T8vgySG9vFsD61SGdzg-1748186283-1.0.1.1-N6FobLrCV3uDQn.yLHcKA1IjA3fMPJGpISyZHGjkIt29f9Tq.32pNzwHImozKJgU49Q7Bbyi5WGgNIhN4KPP.yID87edYblo2QdwHgerqKg; path=/; expires=Sun, 25-May-25 15:48:03 GMT; domain=.deepseek.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'945600cc48ce7beb-LAX'), (b'Content-Encoding', b'gzip')])
+2025-05-25 23:18:03,857 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-25 23:18:03,857 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-05-25 23:18:32,592 - DEBUG - receive_response_body.complete
+2025-05-25 23:18:32,592 - DEBUG - response_closed.started
+2025-05-25 23:18:32,592 - DEBUG - response_closed.complete
+2025-05-25 23:18:32,592 - DEBUG - HTTP Response: POST https://api.deepseek.com/chat/completions "200 OK" Headers({'date': 'Sun, 25 May 2025 15:18:03 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'vary': 'origin, access-control-request-method, access-control-request-headers', 'access-control-allow-credentials': 'true', 'x-ds-trace-id': '7865e27661e42c2d75cdebdb64a5fa16', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'cf-cache-status': 'DYNAMIC', 'set-cookie': '__cf_bm=k34_uQZMftUuXE2UGZ64YvL9T8vgySG9vFsD61SGdzg-1748186283-1.0.1.1-N6FobLrCV3uDQn.yLHcKA1IjA3fMPJGpISyZHGjkIt29f9Tq.32pNzwHImozKJgU49Q7Bbyi5WGgNIhN4KPP.yID87edYblo2QdwHgerqKg; path=/; expires=Sun, 25-May-25 15:48:03 GMT; domain=.deepseek.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'cf-ray': '945600cc48ce7beb-LAX', 'content-encoding': 'gzip'})
+2025-05-25 23:18:32,592 - DEBUG - request_id: None
+2025-05-25 23:18:56,230 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-61186800-bec1-47a9-b451-573f5eac9eff', 'json_data': {'messages': [{'role': 'user', 'content': '请根据以下要求生成专业健身计划：\n\n## 用户需求\n- 总时长：30分钟 (±5分钟)\n- 目标肌肉：臀, 大, 肌\n- 难度限制：5/5\n\n## 可用动作（必须使用以下动作）请特别注意，只能使用以下动作来生成计划：\n[\n  {\n    "name": "深蹲",\n    "target_muscles": [\n      "股四头肌",\n      "臀大肌",\n      "腿后侧肌群"\n    ],\n    "equipment": "杠铃",\n    "difficulty": "3",\n    "description": "双脚与肩同宽，背部挺直，屈膝下蹲至大腿与地面平行，然后起身。"\n  },\n  {\n    "name": "硬拉",\n    "target_muscles": [\n      "臀大肌",\n      "腿后侧肌群",\n      "下背部"\n    ],\n    "equipment": "杠铃",\n    "difficulty": "4",\n    "description": "保持背部中立，双脚站在杠铃下方，抓握后站立拉起杠铃。"\n  },\n  {\n    "name": "深蹲",\n    "target_muscles": [\n      "股四头肌",\n      "臀大肌",\n      "腘绳肌"\n    ],\n    "equipment": "杠铃",\n    "difficulty": "4",\n    "description": "背负杠铃下蹲至大腿与地面平行，再站起，增强下肢力量。"\n  },\n  {\n    "name": "负重深蹲",\n    "target_muscles": [\n      "股四头肌",\n      "臀大肌"\n    ],\n    "equipment": "壶铃/杠铃",\n    "difficulty": "3",\n    "description": "手持重物下蹲锻炼下肢力量和稳定性。"\n  }\n]\n\n## 计划要求\n1. 结构包含：动态热身（10%）、正式训练（80%）、静态拉伸（10%）\n2. 正式训练包含3-5个不同动作\n3. 每个动作注明：\n   - 组数×次数（如：4×8-12）\n   - 组间休息时间\n   - 重量选择建议（根据难度）\n4. 使用Markdown格式\n5. 动作名称必须严格匹配提供的列表\n'}], 'model': 'deepseek-chat', 'max_tokens': 1500, 'temperature': 0.3}}
+2025-05-25 23:18:56,230 - DEBUG - Sending HTTP Request: POST https://api.deepseek.com/chat/completions
+2025-05-25 23:18:56,230 - DEBUG - connect_tcp.started host='127.0.0.1' port=33210 local_address=None timeout=5.0 socket_options=None
+2025-05-25 23:18:56,260 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F65B821310>
+2025-05-25 23:18:56,260 - DEBUG - send_request_headers.started request=<Request [b'CONNECT']>
+2025-05-25 23:18:56,260 - DEBUG - send_request_headers.complete
+2025-05-25 23:18:56,261 - DEBUG - send_request_body.started request=<Request [b'CONNECT']>
+2025-05-25 23:18:56,261 - DEBUG - send_request_body.complete
+2025-05-25 23:18:56,261 - DEBUG - receive_response_headers.started request=<Request [b'CONNECT']>
+2025-05-25 23:18:56,262 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'Connection established', [])
+2025-05-25 23:18:56,263 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001F658052B50> server_hostname='api.deepseek.com' timeout=5.0
+2025-05-25 23:18:57,029 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F65B821490>
+2025-05-25 23:18:57,031 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-05-25 23:18:57,031 - DEBUG - send_request_headers.complete
+2025-05-25 23:18:57,033 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-05-25 23:18:57,033 - DEBUG - send_request_body.complete
+2025-05-25 23:18:57,033 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-05-25 23:18:57,509 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sun, 25 May 2025 15:18:56 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'9b343a615a33b017e9716162bc8bdf48'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'cf-cache-status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9456021b8f97dba6-LAX'), (b'Content-Encoding', b'gzip')])
+2025-05-25 23:18:57,509 - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-05-25 23:18:57,512 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-05-25 23:29:00,791 - DEBUG - Database tables initialized
+2025-05-25 23:29:00,792 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-25 23:29:01,042 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:29:01,043 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:29:01,199 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:29:01,201 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:29:01,353 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:29:01,355 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:29:04,511 - INFO - Login attempt for user: 123
+2025-05-25 23:29:04,527 - INFO - User logged in: 123
+2025-05-25 23:33:10,811 - DEBUG - Database tables initialized
+2025-05-25 23:33:10,812 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-25 23:33:11,027 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:33:11,028 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:33:11,182 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:33:11,183 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:33:11,333 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:33:11,335 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:33:17,843 - INFO - Login attempt for user: 123
+2025-05-25 23:33:17,857 - INFO - User logged in: 123
+2025-05-25 23:35:45,115 - DEBUG - Database tables initialized
+2025-05-25 23:35:45,116 - INFO - Initialized LiteDataManager with database: :memory:
+2025-05-25 23:35:45,367 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:35:45,368 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:35:45,553 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:35:45,554 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:35:45,769 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:35:45,770 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:36:08,894 - DEBUG - Database tables initialized
+2025-05-25 23:36:08,895 - INFO - Initialized LiteDataManager with database: :memory:
+2025-05-25 23:36:09,148 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:36:09,149 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:36:09,309 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:36:09,311 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:36:09,500 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:36:09,502 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:36:15,459 - INFO - Login attempt for user: 123
+2025-05-25 23:36:15,467 - ERROR - Database operation failed: no such table: users
+2025-05-25 23:36:15,467 - ERROR - Login error: no such table: users
+2025-05-25 23:36:17,916 - INFO - Login attempt for user: 123
+2025-05-25 23:36:17,917 - ERROR - Database operation failed: no such table: users
+2025-05-25 23:36:17,917 - ERROR - Login error: no such table: users
+2025-05-25 23:39:15,333 - DEBUG - Database tables initialized
+2025-05-25 23:39:15,333 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-25 23:39:15,617 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:39:15,618 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:39:15,778 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:39:15,779 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:39:15,934 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:39:15,935 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:39:18,700 - INFO - Login attempt for user: 123
+2025-05-25 23:39:18,713 - INFO - User logged in: 123
+2025-05-25 23:46:19,182 - DEBUG - Database tables initialized
+2025-05-25 23:46:19,183 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-25 23:46:19,400 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:46:19,401 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:46:19,557 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:46:19,559 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:46:19,715 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:46:19,716 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:46:22,515 - INFO - Login attempt for user: 123
+2025-05-25 23:46:22,530 - INFO - User logged in: 123
+2025-05-25 23:46:50,075 - INFO - User logging out: 123
+2025-05-25 23:48:43,490 - DEBUG - Database tables initialized
+2025-05-25 23:48:43,491 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-25 23:48:43,733 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:48:43,734 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:48:43,890 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:48:43,892 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:48:44,050 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:48:44,051 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:48:47,819 - INFO - Login attempt for user: 123
+2025-05-25 23:48:47,832 - INFO - User logged in: 123
+2025-05-25 23:49:17,509 - DEBUG - Database tables initialized
+2025-05-25 23:49:17,510 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-25 23:49:17,863 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:49:17,864 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:49:18,030 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:49:18,031 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:49:18,186 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:49:18,187 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:49:19,678 - INFO - Login attempt for user: 123
+2025-05-25 23:49:19,692 - INFO - User logged in: 123
+2025-05-25 23:53:50,907 - DEBUG - Database tables initialized
+2025-05-25 23:53:50,907 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-25 23:53:51,139 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:53:51,140 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:53:51,290 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:53:51,291 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:53:51,439 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:53:51,440 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:53:56,020 - INFO - Login attempt for user: 123
+2025-05-25 23:53:56,034 - INFO - User logged in: 123
+2025-05-25 23:54:12,292 - DEBUG - Database tables initialized
+2025-05-25 23:54:12,292 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-25 23:54:12,551 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:54:12,552 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:54:12,707 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:54:12,709 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:54:12,862 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:54:12,862 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:54:16,543 - INFO - Login attempt for user: 123
+2025-05-25 23:54:16,557 - INFO - User logged in: 123
+2025-05-25 23:57:05,022 - DEBUG - Database tables initialized
+2025-05-25 23:57:05,023 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-25 23:57:05,232 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:57:05,233 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:57:05,384 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:57:05,385 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:57:05,537 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:57:05,538 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:57:09,063 - INFO - Login attempt for user: 123
+2025-05-25 23:57:09,077 - INFO - User logged in: 123
+2025-05-25 23:57:48,081 - DEBUG - Database tables initialized
+2025-05-25 23:57:48,082 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-25 23:57:48,301 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:57:48,302 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:57:48,453 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:57:48,454 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:57:48,615 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-25 23:57:48,617 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-25 23:57:50,042 - INFO - Login attempt for user: 123
+2025-05-25 23:57:50,057 - INFO - User logged in: 123
+2025-05-26 07:54:10,127 - DEBUG - Database tables initialized
+2025-05-26 07:54:10,128 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 07:54:10,594 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 07:54:10,596 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 07:54:10,835 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 07:54:10,836 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 07:54:11,057 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 07:54:11,059 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 07:54:16,394 - INFO - Login attempt for user: 123
+2025-05-26 07:54:16,421 - INFO - User logged in: 123
+2025-05-26 07:59:38,831 - DEBUG - Database tables initialized
+2025-05-26 07:59:38,832 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 07:59:39,176 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 07:59:39,176 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 07:59:39,331 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 07:59:39,332 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 07:59:39,487 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 07:59:39,487 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 07:59:41,685 - INFO - Login attempt for user: 123
+2025-05-26 07:59:41,701 - INFO - User logged in: 123
+2025-05-26 08:01:09,285 - DEBUG - Database tables initialized
+2025-05-26 08:01:09,285 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:01:09,530 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:01:09,531 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:01:09,690 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:01:09,691 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:01:09,863 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:01:09,864 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:01:12,254 - INFO - Login attempt for user: 123
+2025-05-26 08:01:12,268 - INFO - User logged in: 123
+2025-05-26 08:03:26,040 - DEBUG - Database tables initialized
+2025-05-26 08:03:26,040 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:03:26,332 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:03:26,333 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:03:26,500 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:03:26,501 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:03:26,675 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:03:26,676 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:03:36,636 - INFO - Login attempt for user: 123
+2025-05-26 08:03:36,650 - INFO - User logged in: 123
+2025-05-26 08:04:29,575 - DEBUG - Database tables initialized
+2025-05-26 08:04:29,575 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:07:25,836 - DEBUG - Database tables initialized
+2025-05-26 08:07:25,836 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:07:26,072 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:07:26,073 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:07:26,239 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:07:26,240 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:07:26,405 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:07:26,405 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:07:29,082 - INFO - Login attempt for user: 123
+2025-05-26 08:07:29,096 - INFO - User logged in: 123
+2025-05-26 08:08:37,414 - DEBUG - Database tables initialized
+2025-05-26 08:08:37,414 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:08:37,703 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:08:37,705 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:08:37,880 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:08:37,882 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:08:38,072 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:08:38,074 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:08:40,571 - INFO - Login attempt for user: 123
+2025-05-26 08:08:40,593 - INFO - User logged in: 123
+2025-05-26 08:16:31,491 - DEBUG - Database tables initialized
+2025-05-26 08:16:31,491 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:16:31,801 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:16:31,802 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:16:31,962 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:16:31,963 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:16:32,126 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:16:32,127 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:17:08,547 - DEBUG - Database tables initialized
+2025-05-26 08:17:08,548 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:17:08,822 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:17:08,823 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:17:08,984 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:17:08,985 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:17:09,143 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:17:09,144 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:17:34,664 - DEBUG - Database tables initialized
+2025-05-26 08:17:34,664 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:17:34,865 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:17:34,866 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:17:35,015 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:17:35,016 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:17:35,170 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:17:35,171 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:19:47,580 - DEBUG - Database tables initialized
+2025-05-26 08:19:47,580 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:19:47,789 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:19:47,789 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:19:47,950 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:19:47,951 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:19:48,107 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:19:48,108 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:19:53,135 - INFO - Login attempt for user: 123
+2025-05-26 08:19:53,149 - INFO - User logged in: 123
+2025-05-26 08:22:39,002 - DEBUG - Database tables initialized
+2025-05-26 08:22:39,002 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:22:39,268 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:22:39,268 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:22:39,455 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:22:39,455 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:22:39,647 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:22:39,647 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:22:44,985 - INFO - Login attempt for user: 123
+2025-05-26 08:22:45,010 - INFO - User logged in: 123
+2025-05-26 08:29:59,922 - DEBUG - Database tables initialized
+2025-05-26 08:29:59,922 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:30:00,265 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:30:00,265 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:30:00,433 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:30:00,433 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:30:00,603 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:30:00,603 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:30:06,627 - INFO - Login attempt for user: 123
+2025-05-26 08:30:06,639 - INFO - User logged in: 123
+2025-05-26 08:32:31,682 - DEBUG - Database tables initialized
+2025-05-26 08:32:31,682 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:32:31,916 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:32:31,916 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:32:32,056 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:32:32,071 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:32:32,221 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:32:32,222 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:32:35,440 - INFO - Login attempt for user: 123
+2025-05-26 08:32:35,459 - INFO - User logged in: 123
+2025-05-26 08:35:01,489 - DEBUG - Database tables initialized
+2025-05-26 08:35:01,501 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:35:01,744 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:35:01,744 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:35:01,899 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:35:01,899 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:35:02,056 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:35:02,057 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:35:06,672 - INFO - Login attempt for user: 123
+2025-05-26 08:35:06,688 - INFO - User logged in: 123
+2025-05-26 08:36:52,641 - DEBUG - Database tables initialized
+2025-05-26 08:36:52,642 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:36:52,847 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:36:52,848 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:36:53,002 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:36:53,003 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:36:53,154 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:36:53,155 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:36:56,460 - INFO - Login attempt for user: 123
+2025-05-26 08:36:56,475 - INFO - User logged in: 123
+2025-05-26 08:37:04,024 - INFO - Saved body stats ID: 1
+2025-05-26 08:38:43,524 - DEBUG - Database tables initialized
+2025-05-26 08:38:43,524 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:38:43,752 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:38:43,752 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:38:43,900 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:38:43,910 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:38:44,051 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:38:44,064 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:38:48,581 - INFO - Login attempt for user: 123
+2025-05-26 08:38:48,600 - INFO - User logged in: 123
+2025-05-26 08:49:22,181 - DEBUG - Database tables initialized
+2025-05-26 08:49:22,182 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:49:22,522 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:49:22,523 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:49:22,677 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:49:22,678 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:49:22,832 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:49:22,833 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:49:24,946 - INFO - Login attempt for user: 123
+2025-05-26 08:49:24,959 - INFO - User logged in: 123
+2025-05-26 08:49:36,580 - INFO - Saved body stats ID: 0
+2025-05-26 08:49:45,833 - DEBUG - Database tables initialized
+2025-05-26 08:49:45,834 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:49:46,044 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:49:46,045 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:49:46,203 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:49:46,205 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:49:46,357 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:49:46,358 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:49:49,375 - INFO - Login attempt for user: 123
+2025-05-26 08:49:49,388 - INFO - User logged in: 123
+2025-05-26 08:49:57,329 - ERROR - Database operation failed: 'str' object has no attribute 'timestamp'
+2025-05-26 08:49:57,329 - ERROR - Failed to save body stats: 'str' object has no attribute 'timestamp'
+2025-05-26 08:51:05,220 - DEBUG - Database tables initialized
+2025-05-26 08:51:05,220 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:51:05,435 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:51:05,435 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:51:05,597 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:51:05,598 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:51:05,774 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:51:05,775 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:51:09,459 - INFO - Login attempt for user: 123
+2025-05-26 08:51:09,473 - INFO - User logged in: 123
+2025-05-26 08:51:19,561 - INFO - Saved body stats ID: 0
+2025-05-26 08:51:28,148 - DEBUG - Database tables initialized
+2025-05-26 08:51:28,148 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 08:51:28,347 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:51:28,348 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:51:28,505 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:51:28,506 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:51:28,662 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 08:51:28,663 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 08:51:30,559 - INFO - Login attempt for user: 123
+2025-05-26 08:51:30,574 - INFO - User logged in: 123
+2025-05-26 08:51:50,015 - INFO - Saved body stats ID: 2
+2025-05-26 12:05:28,138 - DEBUG - Database tables initialized
+2025-05-26 12:05:28,138 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 12:05:28,635 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:05:28,637 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:05:28,839 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:05:28,839 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:05:29,056 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:05:29,057 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:05:32,460 - INFO - Login attempt for user: 123
+2025-05-26 12:05:32,496 - INFO - User logged in: 123
+2025-05-26 12:05:41,862 - INFO - Saved body stats ID: 0
+2025-05-26 12:07:42,352 - DEBUG - Database tables initialized
+2025-05-26 12:07:42,352 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 12:07:42,638 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:07:42,641 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:07:42,836 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:07:42,837 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:07:43,092 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:07:43,092 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:07:45,936 - INFO - Login attempt for user: 123
+2025-05-26 12:07:45,956 - INFO - User logged in: 123
+2025-05-26 12:07:52,492 - INFO - Saved body stats ID: 0
+2025-05-26 12:09:39,409 - DEBUG - Database tables initialized
+2025-05-26 12:09:39,409 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 12:09:39,686 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:09:39,687 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:09:39,878 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:09:39,879 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:09:40,053 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:09:40,064 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:09:41,641 - INFO - Login attempt for user: 123
+2025-05-26 12:09:41,653 - INFO - User logged in: 123
+2025-05-26 12:16:29,920 - DEBUG - Database tables initialized
+2025-05-26 12:16:29,920 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 12:16:30,200 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:16:30,200 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:16:30,397 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:16:30,399 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:16:30,587 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:16:30,589 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:16:35,317 - INFO - Login attempt for user: 123
+2025-05-26 12:16:35,331 - INFO - User logged in: 123
+2025-05-26 12:18:50,926 - DEBUG - Database tables initialized
+2025-05-26 12:18:50,926 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 12:18:51,235 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:18:51,235 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:18:51,398 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:18:51,398 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:18:51,565 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:18:51,565 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:18:53,998 - INFO - Login attempt for user: 123
+2025-05-26 12:18:54,019 - INFO - User logged in: 123
+2025-05-26 12:18:56,173 - INFO - Inserted new training record ID: 1
+2025-05-26 12:19:09,609 - ERROR - Database operation failed: '深蹲'
+2025-05-26 12:19:09,610 - ERROR - Failed to save training record: '深蹲'
+2025-05-26 12:19:18,364 - ERROR - Database operation failed: '深蹲'
+2025-05-26 12:19:18,364 - ERROR - Failed to save training record: '深蹲'
+2025-05-26 12:19:36,332 - DEBUG - Database tables initialized
+2025-05-26 12:19:36,332 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 12:19:36,608 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:19:36,608 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:19:36,792 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:19:36,792 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:19:36,960 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 12:19:36,971 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 12:19:39,829 - INFO - Login attempt for user: 123
+2025-05-26 12:19:39,847 - WARNING - Invalid password for user: 123
+2025-05-26 12:19:39,847 - ERROR - Login error: 密码错误
+2025-05-26 12:19:41,117 - INFO - Login attempt for user: 123
+2025-05-26 12:19:41,132 - INFO - User logged in: 123
+2025-05-26 12:20:04,336 - INFO - Updated existing training record
+2025-05-26 12:20:09,755 - ERROR - Database operation failed: '深蹲'
+2025-05-26 12:20:09,756 - ERROR - Failed to save training record: '深蹲'
+2025-05-26 19:33:58,033 - DEBUG - Database tables initialized
+2025-05-26 19:33:58,033 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 19:33:59,067 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 19:33:59,068 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 19:33:59,251 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 19:33:59,252 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 19:33:59,427 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 19:33:59,433 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 19:34:08,741 - INFO - Login attempt for user: 123
+2025-05-26 19:34:08,760 - INFO - User logged in: 123
+2025-05-26 19:34:15,866 - ERROR - Database operation failed: '深蹲'
+2025-05-26 19:34:15,867 - ERROR - Failed to save training record: '深蹲'
+2025-05-26 19:34:58,084 - ERROR - Database operation failed: '深蹲'
+2025-05-26 19:34:58,084 - ERROR - Failed to save training record: '深蹲'
+2025-05-26 19:38:51,190 - DEBUG - Database tables initialized
+2025-05-26 19:38:51,190 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 19:38:51,607 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 19:38:51,610 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 19:38:51,807 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 19:38:51,813 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 19:38:52,013 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 19:38:52,013 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 19:38:55,995 - INFO - Login attempt for user: 123
+2025-05-26 19:38:56,018 - INFO - User logged in: 123
+2025-05-26 20:02:52,537 - DEBUG - Database tables initialized
+2025-05-26 20:02:52,537 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 20:02:52,908 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 20:02:52,910 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 20:02:53,086 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 20:02:53,086 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 20:02:53,261 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 20:02:53,261 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 20:02:59,905 - INFO - Login attempt for user: 123
+2025-05-26 20:02:59,933 - INFO - User logged in: 123
+2025-05-26 20:03:02,439 - ERROR - Database operation failed: 'int' object is not iterable
+2025-05-26 20:03:02,440 - ERROR - Failed to save training record: 'int' object is not iterable
+2025-05-26 20:06:23,293 - DEBUG - Database tables initialized
+2025-05-26 20:06:23,293 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 20:06:23,659 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 20:06:23,661 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 20:06:23,839 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 20:06:23,839 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 20:06:24,018 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 20:06:24,019 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 20:06:30,345 - INFO - Login attempt for user: 123
+2025-05-26 20:06:30,364 - INFO - User logged in: 123
+2025-05-26 20:06:33,050 - ERROR - Database operation failed: 'int' object is not iterable
+2025-05-26 20:06:33,051 - ERROR - Failed to save training record: 'int' object is not iterable
+2025-05-26 20:17:16,050 - DEBUG - Database tables initialized
+2025-05-26 20:17:16,050 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 20:17:16,387 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 20:17:16,387 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 20:17:16,550 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 20:17:16,559 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 20:17:16,717 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 20:17:16,717 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 20:17:19,405 - INFO - Login attempt for user: 123
+2025-05-26 20:17:19,418 - INFO - User logged in: 123
+2025-05-26 20:17:22,065 - ERROR - Database operation failed: 'int' object is not iterable
+2025-05-26 20:17:22,066 - ERROR - Failed to save training record: 'int' object is not iterable
+2025-05-26 20:17:34,324 - INFO - Saved body stats ID: 0
+2025-05-26 20:17:52,128 - ERROR - Database operation failed: 'int' object is not iterable
+2025-05-26 20:17:52,128 - ERROR - Failed to save training record: 'int' object is not iterable
+2025-05-26 20:25:23,948 - DEBUG - Database tables initialized
+2025-05-26 20:25:23,949 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 20:25:24,313 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 20:25:24,315 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 20:25:24,483 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 20:25:24,483 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 20:25:24,644 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 20:25:24,644 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 20:25:35,621 - INFO - Login attempt for user: 123
+2025-05-26 20:25:35,637 - INFO - User logged in: 123
+2025-05-26 20:25:38,856 - ERROR - Database operation failed: '深蹲'
+2025-05-26 20:25:38,857 - ERROR - Failed to save training record: '深蹲'
+2025-05-26 23:23:41,675 - DEBUG - Database tables initialized
+2025-05-26 23:23:41,676 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 23:23:42,065 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 23:23:42,066 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 23:23:45,597 - INFO - Login attempt for user: 123
+2025-05-26 23:23:45,611 - INFO - User logged in: 123
+2025-05-26 23:23:52,434 - ERROR - Database operation failed: '深蹲'
+2025-05-26 23:23:52,435 - ERROR - Failed to save training record: '深蹲'
+2025-05-26 23:26:09,170 - DEBUG - Database tables initialized
+2025-05-26 23:26:09,170 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 23:26:09,381 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 23:26:09,382 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 23:26:09,535 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 23:26:09,536 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 23:26:09,687 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-26 23:26:09,688 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-26 23:26:14,033 - INFO - Login attempt for user: 123
+2025-05-26 23:26:14,046 - INFO - User logged in: 123
+2025-05-26 23:26:17,532 - INFO - Updated existing training record
+2025-05-27 08:42:15,707 - DEBUG - Database tables initialized
+2025-05-27 08:42:15,707 - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-27 08:42:16,516 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-27 08:42:16,516 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-27 08:42:16,882 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-27 08:42:16,886 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-27 08:42:17,218 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2025-05-27 08:42:17,221 - DEBUG - load_verify_locations cafile='D:\\anaconda_1\\Library\\ssl\\cacert.pem'
+2025-05-27 08:42:21,517 - INFO - Login attempt for user: 123
+2025-05-27 08:42:21,529 - INFO - User logged in: 123
+2025-05-27 08:42:25,856 - INFO - Inserted new training record ID: 4
