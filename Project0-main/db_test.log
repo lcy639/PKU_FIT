@@ -1,0 +1,79 @@
+2025-05-26 20:16:49,823 - LiteDataManager - DEBUG - Database tables initialized
+2025-05-26 20:16:49,823 - LiteDataManager - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 20:16:49,824 - LiteDataManager - INFO - Registration attempt for user: raymond
+2025-05-26 20:16:49,852 - LiteDataManager - INFO - User registered: raymond
+2025-05-26 20:16:49,852 - LiteDataManager - INFO - Login attempt for user: raymond
+2025-05-26 20:16:49,870 - LiteDataManager - INFO - User logged in: raymond
+2025-05-26 20:16:49,874 - LiteDataManager - INFO - Inserted new training record ID: 2
+2025-05-26 20:16:49,885 - LiteDataManager - INFO - Inserted new training record ID: 3
+2025-05-26 20:16:49,892 - LiteDataManager - INFO - User logging out: raymond
+2025-05-26 23:25:53,996 - LiteDataManager - DEBUG - Database tables initialized
+2025-05-26 23:25:53,996 - LiteDataManager - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 23:25:53,996 - LiteDataManager - INFO - Registration attempt for user: raymond
+2025-05-26 23:25:54,010 - LiteDataManager - ERROR - Database operation failed: UNIQUE constraint failed: users.username
+2025-05-26 23:25:54,011 - LiteDataManager - WARNING - Registration failed - username exists: raymond
+2025-05-26 23:25:54,012 - LiteDataManager - INFO - Login attempt for user: raymond
+2025-05-26 23:25:54,025 - LiteDataManager - INFO - User logged in: raymond
+2025-05-26 23:25:54,027 - LiteDataManager - INFO - Updated existing training record
+2025-05-26 23:25:54,033 - LiteDataManager - INFO - Updated existing training record
+2025-05-26 23:25:54,040 - LiteDataManager - INFO - User logging out: raymond
+2025-05-26 23:25:55,208 - LiteDataManager - DEBUG - Database tables initialized
+2025-05-26 23:25:55,208 - LiteDataManager - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 23:25:55,208 - LiteDataManager - INFO - Registration attempt for user: raymond
+2025-05-26 23:25:55,222 - LiteDataManager - ERROR - Database operation failed: UNIQUE constraint failed: users.username
+2025-05-26 23:25:55,223 - LiteDataManager - WARNING - Registration failed - username exists: raymond
+2025-05-26 23:25:55,223 - LiteDataManager - INFO - Login attempt for user: raymond
+2025-05-26 23:25:55,237 - LiteDataManager - INFO - User logged in: raymond
+2025-05-26 23:25:55,239 - LiteDataManager - INFO - Updated existing training record
+2025-05-26 23:25:55,245 - LiteDataManager - INFO - Updated existing training record
+2025-05-26 23:25:55,252 - LiteDataManager - INFO - User logging out: raymond
+2025-05-26 23:25:56,284 - LiteDataManager - DEBUG - Database tables initialized
+2025-05-26 23:25:56,284 - LiteDataManager - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-26 23:25:56,284 - LiteDataManager - INFO - Registration attempt for user: raymond
+2025-05-26 23:25:56,298 - LiteDataManager - ERROR - Database operation failed: UNIQUE constraint failed: users.username
+2025-05-26 23:25:56,299 - LiteDataManager - WARNING - Registration failed - username exists: raymond
+2025-05-26 23:25:56,299 - LiteDataManager - INFO - Login attempt for user: raymond
+2025-05-26 23:25:56,313 - LiteDataManager - INFO - User logged in: raymond
+2025-05-26 23:25:56,315 - LiteDataManager - INFO - Updated existing training record
+2025-05-26 23:25:56,322 - LiteDataManager - INFO - Updated existing training record
+2025-05-26 23:25:56,328 - LiteDataManager - INFO - User logging out: raymond
+2025-05-27 10:05:49,441 - LiteDataManager - DEBUG - Database tables initialized
+2025-05-27 10:05:49,441 - LiteDataManager - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-27 10:05:49,441 - LiteDataManager - INFO - Registration attempt for user: raymond
+2025-05-27 10:05:49,457 - LiteDataManager - ERROR - Database operation failed: UNIQUE constraint failed: users.username
+2025-05-27 10:05:49,473 - LiteDataManager - WARNING - Registration failed - username exists: raymond
+2025-05-27 10:05:49,474 - LiteDataManager - INFO - Login attempt for user: raymond
+2025-05-27 10:05:49,489 - LiteDataManager - INFO - User logged in: raymond
+2025-05-27 10:05:49,491 - LiteDataManager - INFO - Updated existing training record
+2025-05-27 10:05:49,500 - LiteDataManager - INFO - Updated existing training record
+2025-05-27 10:05:49,502 - LiteDataManager - INFO - User logging out: raymond
+2025-05-27 10:05:51,041 - LiteDataManager - DEBUG - Database tables initialized
+2025-05-27 10:05:51,041 - LiteDataManager - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-27 10:05:51,041 - LiteDataManager - INFO - Registration attempt for user: raymond
+2025-05-27 10:05:51,072 - LiteDataManager - ERROR - Database operation failed: UNIQUE constraint failed: users.username
+2025-05-27 10:05:51,073 - LiteDataManager - WARNING - Registration failed - username exists: raymond
+2025-05-27 10:05:51,073 - LiteDataManager - INFO - Login attempt for user: raymond
+2025-05-27 10:05:51,090 - LiteDataManager - INFO - User logged in: raymond
+2025-05-27 10:05:51,094 - LiteDataManager - INFO - Updated existing training record
+2025-05-27 10:05:51,100 - LiteDataManager - INFO - Updated existing training record
+2025-05-27 10:05:51,108 - LiteDataManager - INFO - User logging out: raymond
+2025-05-27 10:07:03,031 - LiteDataManager - DEBUG - Database tables initialized
+2025-05-27 10:07:03,031 - LiteDataManager - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-27 10:07:03,031 - LiteDataManager - INFO - Registration attempt for user: raymond
+2025-05-27 10:07:03,054 - LiteDataManager - ERROR - Database operation failed: UNIQUE constraint failed: users.username
+2025-05-27 10:07:03,054 - LiteDataManager - WARNING - Registration failed - username exists: raymond
+2025-05-27 10:07:03,059 - LiteDataManager - INFO - Login attempt for user: raymond
+2025-05-27 10:07:03,079 - LiteDataManager - INFO - User logged in: raymond
+2025-05-27 10:07:03,081 - LiteDataManager - INFO - Updated existing training record
+2025-05-27 10:07:03,089 - LiteDataManager - INFO - Updated existing training record
+2025-05-27 10:07:03,097 - LiteDataManager - INFO - User logging out: raymond
+2025-05-27 10:09:32,042 - LiteDataManager - DEBUG - Database tables initialized
+2025-05-27 10:09:32,042 - LiteDataManager - INFO - Initialized LiteDataManager with database: ./data/test2.db
+2025-05-27 10:09:32,042 - LiteDataManager - INFO - Registration attempt for user: raymond
+2025-05-27 10:09:32,062 - LiteDataManager - ERROR - Database operation failed: UNIQUE constraint failed: users.username
+2025-05-27 10:09:32,063 - LiteDataManager - WARNING - Registration failed - username exists: raymond
+2025-05-27 10:09:32,063 - LiteDataManager - INFO - Login attempt for user: raymond
+2025-05-27 10:09:32,080 - LiteDataManager - INFO - User logged in: raymond
+2025-05-27 10:09:32,082 - LiteDataManager - INFO - Updated existing training record
+2025-05-27 10:09:32,090 - LiteDataManager - INFO - Updated existing training record
+2025-05-27 10:09:32,097 - LiteDataManager - INFO - User logging out: raymond
