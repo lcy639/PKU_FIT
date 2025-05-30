@@ -62,11 +62,11 @@ class MuscleOverlayWidget(QWidget):
         front_base = Image.open(os.path.join(self.image_dir, "base_front.png")).convert("RGBA")
         back_base = Image.open(os.path.join(self.image_dir, "base_back.png")).convert("RGBA")
 
-        # 合成前视图
+        # 合成前视图 debug中...
         front_img = front_base.copy()
         for muscle in muscle_list:
             if muscle in front_muscles:
-                mask_path = os.path.join(self.mask_dir, f"base_front.png")
+                mask_path = os.path.join(self.mask_dir, f"{muscle}_front.png")
                 if os.path.exists(mask_path):
                     overlay = Image.open(mask_path).convert("RGBA")
                     front_img = Image.alpha_composite(front_img, overlay)
@@ -75,7 +75,7 @@ class MuscleOverlayWidget(QWidget):
         back_img = back_base.copy()
         for muscle in muscle_list:
             if muscle in back_muscles:
-                mask_path = os.path.join(self.mask_dir, f"base_back.png")
+                mask_path = os.path.join(self.mask_dir, f"{muscle}_back.png")
                 if os.path.exists(mask_path):
                     overlay = Image.open(mask_path).convert("RGBA")
                     back_img = Image.alpha_composite(back_img, overlay)
